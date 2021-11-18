@@ -4,9 +4,7 @@
 
     <h1>Launch Rocket</h1>
 
-    {{ form_start(articleForm) }}
-        {{ form_widget(articleForm) }}
-
-        <button type="submit" class="btn btn-primary">Submit</button>
-    {{ form_end(articleForm) }}
+    {{ include('article_admin/_form.html.twig',{
+        button_text: 'Create!!!'
+    }) }}
 {% endblock %}

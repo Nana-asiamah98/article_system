@@ -42,12 +42,33 @@ class ArticleAdminController extends AbstractController
     }
 
     /**
-     * @Route("/admin/article/{id}/edit")
-     * @IsGranted("MANAGE", subject="article")
+     * @Route("/admin/article/{id}/edit", name="admin_artcile_edit")
+     * @param Article $article
+     * @param Request $request
+     * @param EntityManagerInterface $entityManager
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|Response
      */
-    public function edit(Article $article)
+    public function edit(Article $article, Request $request, EntityManagerInterface $em)
     {
-        dd($article);
+        $form = $this->createForm(ArticleFormType::class,$article);
+        $form->handleRequest($request);
+
+        if($form->isSubmitted() && $form->isValid()){
+            /** @var Article $article */
+            $article = $form->getData();
+            $em->persist($article);
+            $em->flush();
+
+            $this->addFlash("success", "It's been updated successfully");
+
+            return $this->redirectToRoute('admin_artcile_edit',[
+                'id' => $article->getId()
+            ]);
+        }
+
+        return $this->render("article_admin/edit.html.twig",[
+            'articleForm' => $form->createView(),
+        ]);
     }
 
     /**

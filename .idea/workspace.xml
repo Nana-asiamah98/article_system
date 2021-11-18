@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82b26591-2edd-404a-9791-aa7a57a5068f" name="Default Changelist" comment="" />
+    <list default="true" id="82b26591-2edd-404a-9791-aa7a57a5068f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article_admin/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article_admin/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/new.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +17,12 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,25 +143,37 @@
     </include_path>
   </component>
   <component name="ProjectId" id="20yLyRsZA9pEgMP5WYwzs2OCdq2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/article_admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JudeAs\Documents\na_proj\sym\article_system\templates\article_admin" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="symfony serve" />
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="82b26591-2edd-404a-9791-aa7a57a5068f" name="Default Changelist" comment="" />
@@ -161,48 +183,56 @@
       <updated>1637012134846</updated>
       <workItem from="1637012135900" duration="3069000" />
       <workItem from="1637201255900" duration="5121000" />
+      <workItem from="1637227234812" duration="1594000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="764" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1637202858709">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="764" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1637202858709" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1637201713118">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="161" key="GridCell.Tab.0.bottom" timestamp="1637227555225">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227555225" />
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637201713118" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1637201713118">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="161" key="GridCell.Tab.0.center" timestamp="1637227555225">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227555225" />
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637201713118" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1637201713118">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="161" key="GridCell.Tab.0.left" timestamp="1637227555224">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227555224" />
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637201713118" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1637201713118">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="161" key="GridCell.Tab.0.right" timestamp="1637227555225">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227555225" />
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637201713118" />
     <state x="659" y="232" key="NewPhpClassDialog" timestamp="1637012873059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="659" y="232" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637012873059" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1637014855443">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2248" y="23" key="SettingsEditor" timestamp="1637227275631">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state x="2248" y="23" key="SettingsEditor/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227275631" />
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1637014855443" />
-    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1637201686188">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2358" y="171" width="672" height="476" key="run.anything.popup" timestamp="1637227297118">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state x="2358" y="171" width="672" height="476" key="run.anything.popup/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227297118" />
     <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637201686188" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1637203292634">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2363" y="160" width="672" height="477" key="search.everywhere.popup" timestamp="1637227543384">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
+    <state x="2363" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227543384" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637203292634" />
   </component>
 </project>
