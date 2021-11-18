@@ -153,6 +153,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/article_admin" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -195,6 +196,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="764" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1637202858709" />
+    <state x="2226" y="0" key="CommitChangelistDialog2" timestamp="1637229072648">
+      <screen x="1920" y="0" width="1366" height="738" />
+    </state>
+    <state x="2226" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637229072648" />
     <state width="1323" height="161" key="GridCell.Tab.0.bottom" timestamp="1637227555225">
       <screen x="1920" y="0" width="1366" height="738" />
     </state>
