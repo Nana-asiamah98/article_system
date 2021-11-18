@@ -7,8 +7,11 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 use Gedmo\Mapping\Annotation as Gedmo;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
+use Symfony\Component\Validator\Context\ExecutionContext;
+use function MongoDB\BSON\toJSON;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\ArticleRepository")
@@ -26,6 +29,7 @@ class Article
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank (message="Not blank")
      */
     private $title;
 
@@ -250,5 +254,16 @@ class Article
         $this->author = $author;
 
         return $this;
+    }
+
+    /**
+     * @Assert\Callback
+     */
+    public function validate(ExecutionContext $context, $payload){
+        if(stripos($this->getTitle(), 'the borg') !== false){
+            $context->buildViolation("You messup oo!!! ")
+            ->atPath('title')
+            ->addViolation();
+        }
     }
 }

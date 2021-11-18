@@ -129,6 +129,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/form" />
       <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
     </include_path>
   </component>
   <component name="ProjectId" id="20yLyRsZA9pEgMP5WYwzs2OCdq2" />
@@ -159,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637012134846</updated>
       <workItem from="1637012135900" duration="3069000" />
-      <workItem from="1637201255900" duration="3738000" />
+      <workItem from="1637201255900" duration="5121000" />
     </task>
     <servers />
   </component>
