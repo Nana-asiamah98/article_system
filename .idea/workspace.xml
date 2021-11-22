@@ -25,10 +25,10 @@
     <list default="true" id="82b26591-2edd-404a-9791-aa7a57a5068f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ArticleFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/UserSelectTextType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserSelectTextType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -203,7 +210,8 @@
       <workItem from="1637012135900" duration="3069000" />
       <workItem from="1637201255900" duration="5121000" />
       <workItem from="1637227234812" duration="6181000" />
-      <workItem from="1637390086508" duration="9211000" />
+      <workItem from="1637390086508" duration="9303000" />
+      <workItem from="1637564016281" duration="8308000" />
     </task>
     <task id="LOCAL-00001" summary="Edit Aricles">
       <created>1637229074941</created>
@@ -243,44 +251,44 @@
       <screen x="1920" y="0" width="1366" height="738" />
     </state>
     <state x="2226" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637229082717" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1637390134451">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1637574025323">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051273" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637390134451" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1637390134451">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637574025323" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1637574025323">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051273" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637390134451" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1637390134449">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637574025323" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1637574025323">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051272" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637390134449" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1637390134451">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637574025323" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1637574025323">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051273" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637390134451" />
-    <state x="659" y="232" key="NewPhpClassDialog" timestamp="1637400479845">
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637574025323" />
+    <state x="659" y="232" key="NewPhpClassDialog" timestamp="1637572119607">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="659" y="232" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637400479845" />
+    <state x="659" y="232" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637572119607" />
     <state x="2248" y="23" key="SettingsEditor" timestamp="1637227275631">
       <screen x="1920" y="0" width="1366" height="738" />
     </state>
     <state x="2248" y="23" key="SettingsEditor/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227275631" />
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1637014855443" />
-    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1637390129859">
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1637564202867">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="2358" y="171" width="672" height="476" key="run.anything.popup/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227297118" />
-    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637390129859" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1637404873937">
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637564202867" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1637568660126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="2363" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637229772978" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637404873937" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637568660126" />
   </component>
 </project>

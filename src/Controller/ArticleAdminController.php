@@ -45,7 +45,7 @@ class ArticleAdminController extends AbstractController
      * @Route("/admin/article/{id}/edit", name="admin_artcile_edit")
      * @param Article $article
      * @param Request $request
-     * @param EntityManagerInterface $entityManager
+     * @param EntityManagerInterface $em
      * @return \Symfony\Component\HttpFoundation\RedirectResponse|Response
      */
     public function edit(Article $article, Request $request, EntityManagerInterface $em)
