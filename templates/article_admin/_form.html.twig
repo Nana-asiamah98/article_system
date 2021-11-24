@@ -1,4 +1,16 @@
 {{ form_start(articleForm) }}
-        {{ form_widget(articleForm) }}
+        {{ form_row(articleForm.title) }}
+        {{ form_row(articleForm.content) }}
+        {{ form_row(articleForm.author) }}
+        {% if articleForm.publishedAt is defined %}
+                {{ form_row(articleForm.publishedAt) }}
+        {% endif %}
+        {{ form_row(articleForm.author) }}
+        {{ form_row(articleForm.location) }}
+        <div class="js-specific-location-target">
+        {% if articleForm.specificLocationName is defined %}
+        {{ form_row(articleForm.specificLocationName) }}
+        {% endif %}
+        </div>
 <button type="submit" class="btn btn-primary">{{ button_text  }}</button>
 {{ form_end(articleForm) }}

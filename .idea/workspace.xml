@@ -25,12 +25,9 @@
     <list default="true" id="82b26591-2edd-404a-9791-aa7a57a5068f" name="Default Changelist" comment="Added JS Autocomplete">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/ArticleFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/UserSelectTextType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserSelectTextType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article_admin/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article_admin/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/new.html.twig" afterDir="false" />
@@ -217,7 +214,9 @@
       <workItem from="1637227234812" duration="6181000" />
       <workItem from="1637390086508" duration="9303000" />
       <workItem from="1637564016281" duration="8411000" />
-      <workItem from="1637593964259" duration="7903000" />
+      <workItem from="1637593964259" duration="9437000" />
+      <workItem from="1637670530733" duration="6734000" />
+      <workItem from="1637701085475" duration="4849000" />
     </task>
     <task id="LOCAL-00001" summary="Edit Aricles">
       <created>1637229074941</created>
@@ -266,26 +265,30 @@
     </state>
     <state x="2226" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637229082717" />
     <state x="430" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1637576359854" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1637595078698">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1637727972882">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1637727972882" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1637727464203">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051273" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637595078698" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1637595078698">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637727464203" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1637727464203">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051273" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637595078698" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1637595078698">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637727464203" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1637727464202">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051272" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637595078698" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1637595078698">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637727464202" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1637727464203">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="161" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637230051273" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637595078698" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637727464203" />
     <state x="659" y="232" key="NewPhpClassDialog" timestamp="1637599896182">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -299,15 +302,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1637576389551" />
-    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1637594296358">
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1637701252127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="2358" y="171" width="672" height="476" key="run.anything.popup/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637227297118" />
-    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637594296358" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1637603600056">
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637701252127" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1637727350040">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="2363" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1920.1050/1920.0.1366.738@1920.0.1366.738" timestamp="1637229772978" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637603600056" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637727350040" />
   </component>
 </project>

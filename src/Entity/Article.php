@@ -18,6 +18,8 @@ use function MongoDB\BSON\toJSON;
  */
 class Article
 {
+    private const INTERSTELLAR_SPACE = 'interstellar_space';
+
     use TimestampableEntity;
 
     /**
@@ -82,6 +84,11 @@ class Article
      */
     private $location;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $specificLocationName;
+
     public function __construct()
     {
         $this->comments = new ArrayCollection();
@@ -106,7 +113,7 @@ class Article
     }
 
 
-    public function isPublished():bool
+    public function isPublished(): bool
     {
         return $this->publishedAt !== null;
     }
@@ -180,7 +187,7 @@ class Article
 
     public function getImagePath()
     {
-        return 'images/'.$this->getImageFilename();
+        return 'images/' . $this->getImageFilename();
     }
 
     /**
@@ -265,11 +272,12 @@ class Article
     /**
      * @Assert\Callback
      */
-    public function validate(ExecutionContext $context, $payload){
-        if(stripos($this->getTitle(), 'the borg') !== false){
+    public function validate(ExecutionContext $context, $payload)
+    {
+        if (stripos($this->getTitle(), 'the borg') !== false) {
             $context->buildViolation("You messup oo!!! ")
-            ->atPath('title')
-            ->addViolation();
+                ->atPath('title')
+                ->addViolation();
         }
     }
 
@@ -281,6 +289,22 @@ class Article
     public function setLocation(?string $location): self
     {
         $this->location = $location;
+
+        if (!$location || $location === Article::INTERSTELLAR_SPACE) {
+            $this->setSpecificLocationName(null);
+        }
+
+        return $this;
+    }
+
+    public function getSpecificLocationName(): ?string
+    {
+        return $this->specificLocationName;
+    }
+
+    public function setSpecificLocationName(?string $specificLocationName): self
+    {
+        $this->specificLocationName = $specificLocationName;
 
         return $this;
     }
